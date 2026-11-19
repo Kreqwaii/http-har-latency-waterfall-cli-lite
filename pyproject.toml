@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "http-har-latency-waterfall-cli-lite"
+version = "0.1.0"
+description = "Fast offline HTTP Archive (.har) performance & regression analyzer (pure Python stdlib)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = []
+
+[project.scripts]
+har-waterfall-lite = "har_waterfall_lite.cli:main"
